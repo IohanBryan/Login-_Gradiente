@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Login - Gradiente</title>
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+  <form>
+    <h3>LOGIN</h3>
+    <input type="text" placeholder="Usuário" id="login" />
+    <input type="password" placeholder="Senha" id="senha" />
+    <input type="submit" value="Entrar" onclick="logar();return false" />
+  </form>
+
+
+  <footer class="footer-copy">
+    © 2025 - Desenvolvido por Iohan Bryan -
+    <a href="#" id="abrir-direitos" style="color: var(--rosa); text-decoration: none;">
+      Direitos Autorais
+    </a>
+  </footer>
+
+  <div id="modal-direitos" class="modal">
+    <div class="modal-conteudo">
+      <span class="fechar">&times;</span>
+      <h2>Direitos Autorais</h2>
+      <p>
+        Todo o conteúdo deste sistema de login, incluindo design, código e
+        estrutura, é de autoria de <strong>Iohan Bryan</strong> e está
+        protegido pelas leis de direitos autorais vigentes no Brasil e
+        internacionalmente.
+
+        <br><br>
+
+        É proibida a cópia, reprodução, distribuição ou utilização parcial
+        ou integral do material sem autorização prévia e por escrito do autor.
+
+        <br><br>
+
+        Para solicitações de uso ou parcerias, entre em contato através do e-mail:
+        <strong>yohanbryan2000@gmail.com</strong>
+      </p>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
